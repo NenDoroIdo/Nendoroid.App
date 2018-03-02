@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Nendoroid"
              x:Class="Nendoroid.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+	<Label Text="Welcome to Xamarin.Forms!" x:Name="TestLabel"
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
