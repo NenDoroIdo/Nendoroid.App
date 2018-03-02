@@ -1,0 +1,3 @@
+[submodule "Nendoroido.Core"]
+	path = Nendoroido.Core
+	url = https://github.com/NendoroidoUnofficial/Nendoroido.Core.git
