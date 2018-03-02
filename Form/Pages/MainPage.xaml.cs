@@ -20,7 +20,8 @@ namespace Nendoroid
 			InitializeComponent();
 
             //測試語系
-		    TestLabel.Text = "Hello" + AppResources.test;
+            //https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/localization/
+            TestLabel.Text = "Hello" + AppResources.test;
 		}
 	}
 }
