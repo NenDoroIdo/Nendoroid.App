@@ -123,9 +123,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Nendoroid\Nendoroid.csproj">
-      <Project>{D090ED85-8CDE-47B8-88F9-2C52F8F63320}</Project>
-      <Name>Nendoroid</Name>
+    <ProjectReference Include="..\Form\Form.csproj">
+      <Project>{7F839026-9137-4581-BC83-21CC475E9E38}</Project>
+      <Name>Form</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
