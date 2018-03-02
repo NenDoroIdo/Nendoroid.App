@@ -26,6 +26,12 @@
 	<string>Nendoroido</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.Nendoroido</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+    	<string>ja</string>
+    	<string>zh-Hans</string>
+    	<string>zh-Hant</string>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>
