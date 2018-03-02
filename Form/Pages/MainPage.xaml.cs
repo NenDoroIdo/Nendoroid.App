@@ -4,10 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace Nendoroid
 {
-	public partial class MainPage : ContentPage
+    /// <summary>
+    /// mainPage : display want to search which part
+    /// </summary>
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MainPage : ContentPage
 	{
 		public MainPage()
 		{
