@@ -1,4 +1,5 @@
 ﻿using Form.Pages;
+using Form.Pages.Search;
 using Xamarin.Forms;
 
 namespace Form
@@ -9,7 +10,7 @@ namespace Form
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new NavigationPage(new MainSearchPage()); //new MainPage();
 		}
 
 		protected override void OnStart ()

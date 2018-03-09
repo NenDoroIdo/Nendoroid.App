@@ -12,6 +12,9 @@
     <ProjectReference Include="..\Nendoroido.Core\Nendoroido.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Update="Pages\Search\MainSearchPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Pages\Search\Profile\AccessoryPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
