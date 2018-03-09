@@ -3,18 +3,17 @@
 namespace Form.Model.Search.Capture
 {
     /// <summary>
-    /// Search submit model
+    ///     Search submit model
     /// </summary>
     public class SearchSubmitModel
     {
-
         /// <summary>
-        /// Type
+        ///     Type
         /// </summary>
         public AccessoryType AccessoryType { get; set; }
 
         /// <summary>
-        /// Image
+        ///     Image
         /// </summary>
 
         private byte[] Image { get; set; }

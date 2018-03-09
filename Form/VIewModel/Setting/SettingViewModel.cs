@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Form.VIewModel.Setting
+﻿namespace Form.VIewModel.Setting
 {
-    class SettingViewModel
+    internal class SettingViewModel
     {
-
     }
 }

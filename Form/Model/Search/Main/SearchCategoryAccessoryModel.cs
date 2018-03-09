@@ -1,27 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using NendoroidAccessorySearchEngine.Core.Model;
+﻿using NendoroidAccessorySearchEngine.Core.Model;
 
 namespace Form.Model.Search.Main
 {
     /// <summary>
-    /// Search Category
+    ///     Search Category
     /// </summary>
     public class SearchCategoryAccessoryModel
     {
         /// <summary>
-        /// Name
+        ///     Name
         /// </summary>
         public string SearchAccessoryName { get; set; }
 
         /// <summary>
-        /// Image
+        ///     Image
         /// </summary>
         public string BackgroundImage { get; set; }
 
         /// <summary>
-        /// Type
+        ///     Type
         /// </summary>
         public AccessoryType AccessoryType { get; set; }
     }

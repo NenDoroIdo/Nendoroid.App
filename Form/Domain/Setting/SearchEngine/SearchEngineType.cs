@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Form.Domain.Setting.SearchEngine
+﻿namespace Form.Domain.Setting.SearchEngine
 {
     /// <summary>
     ///     Type
@@ -10,13 +6,13 @@ namespace Form.Domain.Setting.SearchEngine
     public enum SearchEngineType
     {
         /// <summary>
-        /// Local
+        ///     Local
         /// </summary>
         Loccal,
 
         /// <summary>
-        /// Remote
+        ///     Remote
         /// </summary>
-        Remote,
+        Remote
     }
 }
