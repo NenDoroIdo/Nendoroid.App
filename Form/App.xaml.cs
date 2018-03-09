@@ -1,6 +1,7 @@
 ﻿using Form.Pages;
 using Form.Pages.Search;
 using Xamarin.Forms;
+using MainSearchPage = Form.Pages.Search.Main.MainSearchPage;
 
 namespace Form
 {

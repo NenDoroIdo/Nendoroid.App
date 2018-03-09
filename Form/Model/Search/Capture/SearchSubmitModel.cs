@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using NendoroidAccessorySearchEngine.Core.Model;
+﻿using NendoroidAccessorySearchEngine.Core.Model;
 
-namespace Form.Model.Search.Main
+namespace Form.Model.Search.Capture
 {
     /// <summary>
     /// Search submit model

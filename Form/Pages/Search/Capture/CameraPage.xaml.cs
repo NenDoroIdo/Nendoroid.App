@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Form.Pages.Search
+namespace Form.Pages.Search.Capture
 {
     /// <summary>
     /// This page is use to capture image
