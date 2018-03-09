@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Form.Resx;
+﻿using Form.Resx;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Nendoroid
+namespace Form.Pages
 {
     /// <summary>
     /// mainPage : display want to search which part

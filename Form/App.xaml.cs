@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using Form.Pages;
 using Xamarin.Forms;
 
-namespace Nendoroid
+namespace Form
 {
 	public partial class App : Application
 	{
@@ -13,7 +9,7 @@ namespace Nendoroid
 		{
 			InitializeComponent();
 
-			MainPage = new Nendoroid.MainPage();
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()

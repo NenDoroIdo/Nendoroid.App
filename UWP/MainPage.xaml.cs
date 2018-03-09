@@ -21,7 +21,7 @@ namespace Nendoroid.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new Nendoroid.App());
+            LoadApplication(new Form.App());
         }
     }
 }
