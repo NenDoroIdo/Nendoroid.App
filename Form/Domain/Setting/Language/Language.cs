@@ -6,14 +6,19 @@
     public enum Language
     {
         /// <summary>
+        /// 和系統語言相同
+        /// </summary>
+        Default,
+
+        /// <summary>
         ///     繁體中文
         /// </summary>
-        Chinese_Trad,
+        ChineseTrad,
 
         /// <summary>
         ///     簡體中文
         /// </summary>
-        Chinese_Simp,
+        ChineseSimp,
 
         /// <summary>
         ///     English
