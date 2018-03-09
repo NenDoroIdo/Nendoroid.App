@@ -117,7 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="about_author" xml:space="preserve">
+    <value>About author</value>
+  </data>
+  <data name="accessory" xml:space="preserve">
+    <value>Accessory</value>
+  </data>
+  <data name="all_accessory" xml:space="preserve">
+    <value>All accessories</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="captore" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="change_log" xml:space="preserve">
+    <value>Change Log</value>
+  </data>
+  <data name="download_dictionary" xml:space="preserve">
+    <value>Download dictionary</value>
+  </data>
+  <data name="foot" xml:space="preserve">
+    <value>Foot</value>
+  </data>
+  <data name="hand" xml:space="preserve">
+    <value>Hand</value>
+  </data>
+  <data name="head" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="local_dictionary" xml:space="preserve">
+    <value>Local Dictionary</value>
+  </data>
+  <data name="profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="search_engine" xml:space="preserve">
+    <value>Search engine</value>
+  </data>
+  <data name="search_result" xml:space="preserve">
+    <value>search result</value>
+  </data>
+  <data name="select_accessory" xml:space="preserve">
+    <value>Select accessory</value>
+  </data>
+  <data name="setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
   <data name="test" xml:space="preserve">
     <value>Test</value>
+  </data>
+  <data name="web_dictionary" xml:space="preserve">
+    <value>Web Dictionary</value>
   </data>
 </root>

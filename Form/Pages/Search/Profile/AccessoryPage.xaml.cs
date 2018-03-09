@@ -7,12 +7,15 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Form.Pages.Search
+namespace Form.Pages.Search.Profile
 {
+    /// <summary>
+    /// show all accessories List
+    /// </summary>
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class SearchResultPage : ContentPage
+	public partial class AccessoryPage : ContentPage
 	{
-		public SearchResultPage ()
+		public AccessoryPage ()
 		{
 			InitializeComponent ();
 		}

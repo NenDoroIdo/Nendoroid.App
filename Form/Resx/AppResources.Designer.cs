@@ -61,11 +61,182 @@ namespace Form.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to About author.
+        /// </summary>
+        internal static string about_author {
+            get {
+                return ResourceManager.GetString("about_author", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Accessory.
+        /// </summary>
+        internal static string accessory {
+            get {
+                return ResourceManager.GetString("accessory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All accessories.
+        /// </summary>
+        internal static string all_accessory {
+            get {
+                return ResourceManager.GetString("all_accessory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Author.
+        /// </summary>
+        internal static string author {
+            get {
+                return ResourceManager.GetString("author", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Body.
+        /// </summary>
+        internal static string body {
+            get {
+                return ResourceManager.GetString("body", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Capture.
+        /// </summary>
+        internal static string captore {
+            get {
+                return ResourceManager.GetString("captore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change Log.
+        /// </summary>
+        internal static string change_log {
+            get {
+                return ResourceManager.GetString("change_log", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Download dictionary.
+        /// </summary>
+        internal static string download_dictionary {
+            get {
+                return ResourceManager.GetString("download_dictionary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Foot.
+        /// </summary>
+        internal static string foot {
+            get {
+                return ResourceManager.GetString("foot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hand.
+        /// </summary>
+        internal static string hand {
+            get {
+                return ResourceManager.GetString("hand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Head.
+        /// </summary>
+        internal static string head {
+            get {
+                return ResourceManager.GetString("head", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Local Dictionary.
+        /// </summary>
+        internal static string local_dictionary {
+            get {
+                return ResourceManager.GetString("local_dictionary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Profile.
+        /// </summary>
+        internal static string profile {
+            get {
+                return ResourceManager.GetString("profile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search.
+        /// </summary>
+        internal static string search {
+            get {
+                return ResourceManager.GetString("search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search engine.
+        /// </summary>
+        internal static string search_engine {
+            get {
+                return ResourceManager.GetString("search_engine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to search result.
+        /// </summary>
+        internal static string search_result {
+            get {
+                return ResourceManager.GetString("search_result", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select accessory.
+        /// </summary>
+        internal static string select_accessory {
+            get {
+                return ResourceManager.GetString("select_accessory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Setting.
+        /// </summary>
+        internal static string setting {
+            get {
+                return ResourceManager.GetString("setting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Test.
         /// </summary>
         internal static string test {
             get {
                 return ResourceManager.GetString("test", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Web Dictionary.
+        /// </summary>
+        internal static string web_dictionary {
+            get {
+                return ResourceManager.GetString("web_dictionary", resourceCulture);
             }
         }
     }
