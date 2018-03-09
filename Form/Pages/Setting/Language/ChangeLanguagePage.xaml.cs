@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Form.Pages.Setting.ChangeLog
+namespace Form.Pages.Setting.Language
 {
     /// <summary>
-    /// insert a webview
+    /// List view 
+    /// use to change language
     /// </summary>
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ChangeLogPage : ContentPage
+	public partial class ChangeLanguagePage : ContentPage
 	{
-		public ChangeLogPage ()
+		public ChangeLanguagePage ()
 		{
 			InitializeComponent ();
 		}

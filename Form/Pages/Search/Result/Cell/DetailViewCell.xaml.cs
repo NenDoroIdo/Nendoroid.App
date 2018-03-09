@@ -7,15 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Form.Pages.Setting.ChangeLog
+namespace Form.Pages.Search.Result.Cell
 {
-    /// <summary>
-    /// insert a webview
-    /// </summary>
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ChangeLogPage : ContentPage
+	public partial class DetailViewCell : ContentView
 	{
-		public ChangeLogPage ()
+		public DetailViewCell ()
 		{
 			InitializeComponent ();
 		}
