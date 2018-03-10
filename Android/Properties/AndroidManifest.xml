@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.Nendoroid">
-	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="Nendoroid.Android"></application>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.andy840119.Nendoroido" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<application android:label="Nendoroido"></application>
 </manifest>
