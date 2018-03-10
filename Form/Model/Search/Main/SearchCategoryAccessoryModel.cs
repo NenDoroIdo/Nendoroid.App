@@ -1,4 +1,4 @@
-﻿using NendoroidAccessorySearchEngine.Core.Model;
+﻿//using NendoroidAccessorySearchEngine.Core.Model;
 
 namespace Form.Model.Search.Main
 {
@@ -20,6 +20,6 @@ namespace Form.Model.Search.Main
         /// <summary>
         ///     Type
         /// </summary>
-        public AccessoryType AccessoryType { get; set; }
+        //public AccessoryType AccessoryType { get; set; }
     }
 }
