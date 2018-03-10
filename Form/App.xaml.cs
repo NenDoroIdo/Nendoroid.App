@@ -1,4 +1,5 @@
-﻿using Form.Pages.Search.Main;
+﻿using Form.Pages.Search.Capture;
+using Form.Pages.Search.Main;
 using Xamarin.Forms;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
@@ -12,7 +13,7 @@ namespace Form
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainSearchPage()); //new MainPage();
+            MainPage = new NavigationPage(new CameraPage()); //new MainPage();
         }
 
         protected override void OnStart()

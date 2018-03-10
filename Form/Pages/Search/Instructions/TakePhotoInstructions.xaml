@@ -4,7 +4,7 @@
              x:Class="Form.Pages.Search.Instructions.TakePhotoInstructions">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to tess!"
+            <Label Text="Welcome to tesss!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
