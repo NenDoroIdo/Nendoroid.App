@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using NendoroidAccessorySearchEngine.Core.Model;
+//using NendoroidAccessorySearchEngine.Core.Model;
 
 namespace Form.Model.Search.Result
 {
@@ -16,6 +16,6 @@ namespace Form.Model.Search.Result
         /// <summary>
         ///     list result
         /// </summary>
-        public List<SearchResult> ListMatchResult { get; set; }
+        //public List<SearchResult> ListMatchResult { get; set; }
     }
 }
