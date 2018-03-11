@@ -1,9 +1,8 @@
 ﻿using System;
 using System.IO;
-using Emgu.CV;
-using Emgu.CV.Structure;
-using Emgu.CV.Util;
-using SixLabors.ImageSharp;
+//using Emgu.CV;
+//using Emgu.CV.Ut/il;
+//using SixLabors.ImageSharp;
 using Xamarin.Forms;
 
 namespace Form.Helps
@@ -15,6 +14,7 @@ namespace Form.Helps
     /// </summary>
     public static class EmguCVImageHelper
     {
+        /*
         public static Image<Gray, byte> ConvertFromImageSource(Stream source)
         {
             Stream saveStream = null;
@@ -37,23 +37,23 @@ namespace Form.Helps
 
         public static Image<Gray, byte> ConvertFromStream(Stream source)
         {
-            /*
-            using (MemoryStream ms = new MemoryStream())
-            {
-                source.CopyTo(ms);
-                byte[] data = ms.ToArray();
-            }
+            
+            //using (MemoryStream ms = new MemoryStream())
+            //{
+            //    source.CopyTo(ms);
+            //    byte[] data = ms.ToArray();
+            //}
 
-            Mat mat = CvInvoke.Imread(source.p);
-            Image<Gray, byte> targetImage = new Image<Gray, byte>();
-            return targetImage;
-            */
+            //Mat mat = CvInvoke.Imread(source.p);
+            //Image<Gray, byte> targetImage = new Image<Gray, byte>();
+            //return targetImage;
+            
 
             return null;
         }
         
 
-        public static Stream ConvertFromEmguCVImage(Image<Bgr, byte> image)
+        public static Stream ConvertFromEmguCVImage(Image<Gray, byte> image)
         {
             Stream stream = null;
             using (Image<Rgba32> targetImage = new Image<Rgba32>(image.Width, image.Height))
@@ -73,5 +73,6 @@ namespace Form.Helps
             }
             return stream;
         }
+        */
     }
 }
