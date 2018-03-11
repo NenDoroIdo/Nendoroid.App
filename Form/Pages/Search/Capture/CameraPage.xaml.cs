@@ -1,4 +1,11 @@
 ﻿using System;
+using System.IO;
+using System.Net;
+using Emgu.CV;
+using Emgu.CV.CvEnum;
+using Emgu.CV.Structure;
+using Form.Helps;
+using Nendoroido.Core.Test;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,6 +30,16 @@ namespace Form.Pages.Search.Capture
 
             if (photo != null)
                 PhotoImage.Source = ImageSource.FromStream(() => { return photo.GetStream(); });
+
+            var stream = photo.GetStream();
+
+            var image1 = EmguCVImageHelper.ConvertFromImageSource(stream);
+            var image2 = EmguCVImageHelper.ConvertFromImageSource(stream);
+
+            long calTime = 0;
+            var result = DrawMatches.Draw(image1,image2, out calTime);
+
+            PhotoImage.Source = ImageSource.FromStream(()=>EmguCVImageHelper.ConvertFromEmguCVImage(result));
         }
     }
 }
