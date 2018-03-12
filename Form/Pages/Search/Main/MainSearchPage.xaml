@@ -5,9 +5,9 @@
              x:Class="Form.Pages.Search.Main.MainSearchPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand" />
+            <ListView>
+
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
