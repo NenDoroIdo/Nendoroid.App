@@ -1,4 +1,4 @@
-﻿//using NendoroidAccessorySearchEngine.Core.Model;
+﻿using NendoroidAccessorySearchEngine.Core.Model;
 
 namespace Form.Model.Search.Capture
 {
@@ -10,7 +10,7 @@ namespace Form.Model.Search.Capture
         /// <summary>
         ///     Type
         /// </summary>
-        //public AccessoryType AccessoryType { get; set; }
+        public AccessoryType AccessoryType { get; set; }
 
         /// <summary>
         ///     Image
