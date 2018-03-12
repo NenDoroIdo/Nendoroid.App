@@ -18,7 +18,7 @@
         /// <summary>
         ///     簡體中文
         /// </summary>
-        ChineseSimp,
+        ChineseSimp, 
 
         /// <summary>
         ///     English
