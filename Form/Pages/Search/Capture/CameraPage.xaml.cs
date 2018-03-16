@@ -24,6 +24,20 @@ namespace Form.Pages.Search.Capture
 
         private async void CameraButton_Clicked(object sender, EventArgs e)
         {
+            DrawMatches.Test();
+            Console.WriteLine("Success");
+
+            try
+            {
+                
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+            }
+
+            return;
+            
             if (Plugin.Media.CrossMedia.Current.IsCameraAvailable)
             {
                 var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() { });
@@ -42,6 +56,8 @@ namespace Form.Pages.Search.Capture
 
                 PhotoImage.Source = ImageSource.FromStream(() => EmguCVImageHelper.ConvertFromEmguCVImage(result));
                 */
+
+                
             }
             else
             {
