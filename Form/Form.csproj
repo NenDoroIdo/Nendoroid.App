@@ -55,4 +55,7 @@
       <AutoGen>True</AutoGen>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="VIewModel\Search\Profile\" />
+  </ItemGroup>
 </Project>
